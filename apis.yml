@@ -1,8 +1,26 @@
 aid: aruna
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/aruna.png
 name: Aruna
-description: 'Aruna is a company surfaced as a portfolio company of prosus-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: marketplace. This profile is a lead awaiting the
-  enrichment pipeline.'
+description: >-
+  Aruna is Indonesia's largest integrated fisheries commerce platform, on a mission to make the sea a
+  better livelihood for all by building a fair and sustainable fisheries ecosystem. Aruna connects more
+  than 40,000 small-scale fishermen to domestic and global markets using technology, a network of
+  processing partners, and 177+ distribution hubs (Aruna Hubs) across the Indonesian archipelago,
+  trading 23+ seafood commodity types into 31+ countries. The company pairs commerce with sustainability
+  work, including fisherman education, fish-population tracking, and coastal-community empowerment. Aruna
+  is a portfolio company of Prosus Ventures and was added to the API Evangelist network as a company lead;
+  it publishes no public API, developer portal, or machine-readable API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/aruna/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +30,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Marketplace
+- Fisheries
+- Seafood
+- Supply Chain
+- E-Commerce
+- Indonesia
+- Sustainability
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +49,20 @@ maintainers:
 common:
 - type: Website
   url: https://aruna.id
+- type: About
+  url: https://aruna.id/about-aruna/
+- type: Blog
+  url: https://aruna.id/news/
+- type: Support
+  url: https://aruna.id/contact-us/
+- type: PrivacyPolicy
+  url: https://aruna.id/privacy-policy/
+- type: DomainSecurity
+  url: security/aruna-domain-security.yml
+- type: LLMsTxt
+  url: llms/aruna-llms.txt
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
